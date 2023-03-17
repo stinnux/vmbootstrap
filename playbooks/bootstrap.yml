@@ -1,6 +1,6 @@
 ---
 - name: Bootstrap VM
-  hosts: all
+  hosts: localhost
   tasks:
     - name: Show debug message
       debug:
