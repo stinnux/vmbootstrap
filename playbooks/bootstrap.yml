@@ -1,7 +1,6 @@
 ---
 - name: Bootstrap VM
   hosts: all
-
   tasks:
-  - debug:
-    msg: "The playbook has been executd successful"
+    - debug:
+      msg: "The playbook has been executd successful"
